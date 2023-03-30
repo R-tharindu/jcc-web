@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+ 
+    <servlet>   
+        <servlet-name>main</servlet-name>
+        <jsp-file>index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>main</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping> 
+    
+    <servlet>   
+        <servlet-name>main2</servlet-name>
+        <jsp-file>index2.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>main2</servlet-name>
+        <url-pattern>/main2</url-pattern>
+    </servlet-mapping> 
+    
+    
+    <servlet>   
+        <servlet-name>ongoing-projects</servlet-name>
+        <jsp-file>ongoing-projects.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ongoing-projects</servlet-name>
+        <url-pattern>/ongoing-projects-details</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>   
+        <servlet-name>completed-projects</servlet-name>
+        <jsp-file>completed-projects.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>completed-projects</servlet-name>
+        <url-pattern>/completed-projects-details</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>   
+        <servlet-name>background</servlet-name>
+        <jsp-file>background.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>background</servlet-name>
+        <url-pattern>/our-background</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>background2</servlet-name>
+        <jsp-file>background2.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>background2</servlet-name>
+        <url-pattern>/our-background2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>   
+        <servlet-name>collaborations</servlet-name>
+        <jsp-file>collaborations.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>collaborations</servlet-name>
+        <url-pattern>/JCC-collaborations</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>   
+        <servlet-name>contact</servlet-name>
+        <jsp-file>contact.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>contact</servlet-name>
+        <url-pattern>/contact-details</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>   
+        <servlet-name>educationandresearch</servlet-name>
+        <jsp-file>educationandresearch.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>educationandresearch</servlet-name>
+        <url-pattern>/edu-research</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>   
+        <servlet-name>newsandevents</servlet-name>
+        <jsp-file>newsandevents.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newsandevents</servlet-name>
+        <url-pattern>/news</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>   
+        <servlet-name>services</servlet-name>
+        <jsp-file>services.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>services</servlet-name>
+        <url-pattern>/our-services</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>services2</servlet-name>
+        <jsp-file>services2.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>services2</servlet-name>
+        <url-pattern>/our-services2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>   
+        <servlet-name>team</servlet-name>
+        <jsp-file>team.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>team</servlet-name>
+        <url-pattern>/our-team</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>   
+        <servlet-name>bio</servlet-name>
+        <jsp-file>view bio.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bio</servlet-name>
+        <url-pattern>/bio</url-pattern>
+    </servlet-mapping>
+</web-app>
