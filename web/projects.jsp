@@ -80,7 +80,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
             <a href="index.jsp" class="navbar-brand p-0">
-                <img src="img/logo.png" width="100px" />
+                <img src="img/logo.png" width="100px" alt="logo"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>

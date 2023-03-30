@@ -24,6 +24,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 
         <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -35,6 +36,10 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        
+         <!-- custom Stylesheet whatsapp-->
+         <link href="css/whatsapp.css" rel="stylesheet">
+        
         <style>
             .text-black{
                 color: #333333;
@@ -60,7 +65,7 @@
          <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
             <a href="main" class="navbar-brand p-0">
-                <img src="img/logo.png" width="150px" />
+                <img src="img/logo.png" width="150px" alt="logo"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -117,7 +122,10 @@
         </div>
         <!-- Services End -->
 
-
+        <!--  whatsapp chat box -->
+        <%@include file="include/wchat.jsp" %>
+        <!--  whatsapp chat box end -->
+        
         <!-- Footer Start -->
         <%@include file="include/footer.jsp" %>
         <!-- Footer End -->
@@ -131,6 +139,9 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        
+        <!-- whatsapp chat box Javascript -->
+        <script src="js/wchat.js"></script>
     </body>
 
 </html>

@@ -24,6 +24,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 
         <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -35,6 +36,10 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        
+        <!-- custom Stylesheet whatsapp-->
+         <link href="css/whatsapp.css" rel="stylesheet">
+         
         <style>
             .text-black{
                 color: #333333;
@@ -64,7 +69,7 @@
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
                 <a href="main" class="navbar-brand p-0">
-                    <img src="img/logo.png" width="150px" />
+                    <img src="img/logo.png" width="150px" alt="logo"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -127,7 +132,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Jayantha Jayakodi.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Jayantha Jayakodi.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -193,7 +198,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Pathmasiri.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Pathmasiri.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -237,7 +242,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Kariyawasam.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Kariyawasam.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -286,7 +291,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Nimantha.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Nimantha.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -332,7 +337,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Rasika.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Rasika.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -379,7 +384,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Eranga.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Eranga.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -426,7 +431,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Bhagya.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Bhagya.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -472,7 +477,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Vandana.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Vandana.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -517,7 +522,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Isuri.png" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Isuri.png" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -561,7 +566,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Vihangi.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Vihangi.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -606,7 +611,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Thilini.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Thilini.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -649,7 +654,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Shashini.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Shashini.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -694,7 +699,7 @@
                         <div class="col-lg-3">
                             <div class="mb-5">
                                 <div class=" position-relative overflow-hidden">
-                                    <img class="img-fluid w-100" src="img/team/Dilrangi.jpg" alt="">
+                                    <img class="img-fluid w-100" src="img/team/Dilrangi.jpg" alt="member image">
                                 </div>
                             </div>
                         </div>
@@ -751,6 +756,12 @@ smooth flow of process.</p>
         </div><br><br>
         <!-- Blog End -->
 
+        
+        <!--  whatsapp chat box -->
+        <%@include file="include/wchat.jsp" %>
+        <!--  whatsapp chat box end -->
+        
+        
         <!-- Footer Start -->
         <%@include file="include/footer.jsp" %>
         <!-- Footer End -->
@@ -769,6 +780,9 @@ smooth flow of process.</p>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        
+         <!-- whatsapp chat box Javascript -->
+        <script src="js/wchat.js"></script>
     </body>
 
 </html>
