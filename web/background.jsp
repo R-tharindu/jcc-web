@@ -21,6 +21,7 @@
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 
         <!-- Icon Font Stylesheet -->
@@ -35,6 +36,9 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        
+         <!-- custom Stylesheet whatsapp-->
+         <link href="css/whatsapp.css" rel="stylesheet">
         <style>
             .text-black{
                 color: #333333;
@@ -56,7 +60,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
         <a href="main" class="navbar-brand p-0">
-            <img src="img/logo.png" width="150px" />
+            <img src="img/logo.png" width="150px" alt="logo"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -155,7 +159,7 @@
                     
                     
                     <div class="d-flex mb-3" style="padding-left: 10%;">
-                        <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="service">
                         <a href="our-services" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Our Services &nbsp;&nbsp;&nbsp; <i class="bi bi-arrow-right text-primary me-2"></i>
                         
                         </a>
@@ -169,7 +173,9 @@
 
 
 
-
+<!--  whatsapp chat box -->
+<%@include file="include/wchat.jsp" %>
+<!--  whatsapp chat box end -->
 
     <!-- Footer Start -->
     <%@include file="include/footer.jsp" %>
@@ -187,6 +193,9 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+     <!-- whatsapp chat box Javascript -->
+        <script src="js/wchat.js"></script>
 </body>
 
 </html>

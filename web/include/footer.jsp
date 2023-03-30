@@ -3,7 +3,7 @@
     <div class="row g-5">
         <div class="col-lg-6 col-md-6">
 
-            <img class="mb-2" style=""  src="img/logo.png" width="30%">
+            <img class="mb-2" style=""  src="img/logo.png" width="30%" alt="logo">
             <div class="row"> 
               
                 

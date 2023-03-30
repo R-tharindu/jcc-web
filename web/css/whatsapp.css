@@ -84,9 +84,10 @@
 .w-top-right span{
     font-size: 12px !important;
     font-weight: lighter !important;
+    color: #606060;
 }
 .w-mid{
-    height: 250px;
+    height:125px;
     width: 100%;
     margin-top: 20px;
     border-radius: 10px;

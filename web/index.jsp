@@ -24,7 +24,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 
         <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -113,7 +113,7 @@
             <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="w-100" src="img/slide/home-img-slide1.jpg" alt="Image">
+                        <img class="w-100" src="img/slide/home-img-slide1.jpg" alt="slider-Image">
                         <div style=" " class="carousel-caption-new-style carousel-caption d-flex flex-column  justify-content-center">
                             <div class="p-3" style="max-width: 900px;">
 
@@ -166,55 +166,11 @@
 
             </div>
         </div>
-        <!-- About End -->
-
+        <!-- About End -->   
         
-        
-        
-<!--  whatsapp chat box -->
-
-
-<div class="floating-whatsapp" onclick="showWhatsapp();">
-    <div class="whatsapp-body">
-        <div class="whatsapp-content">
-            <div class="w-top">
-                <div class="w-top-left">
-                    <div class="w-top-left-img">
-                        <img src="img/logo.png">
-                    </div>
-                    <div class="online"></div>
-                </div>
-                <div class="w-top-right">
-                    <h5>JCC Consultants Pvt Ltd <br>
-                        <span>Typically replies within a day</span>  
-                    </h5>
-                </div>
-            </div>
-            <div class="w-mid">
-                <img src="img/bg.png">
-                <div class="w-welcome-body">
-                    <p class="w-w-chat-head">JCC Consultants Pvt Ltd</p>
-                    <p>Hi! <br>
-                       How can we assist you ?
-                    </p>  
-                </div>
-            </div>
-            <button class="w-btm" id="send" onclick="sendmsg();">
-                <div class="btn-body">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <h6>Start Chat</h6>
-                </div>
-            </button>
-        </div>
-    </div>
-    <div class="whatsapp-btn" >
-        <i class="fa-brands fa-whatsapp"></i>
-    </div>
-</div>
-
-
-
-<!--  whatsapp chat box end -->
+        <!--  whatsapp chat box -->
+        <%@include file="include/wchat.jsp" %>
+        <!--  whatsapp chat box end -->
 
 
 
@@ -230,7 +186,7 @@
                 <div class="col-lg-3">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden">
-                            <a href="our-services#contract"> <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" alt=""></a>
+                            <a href="our-services#contract"> <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" alt=" Contract"></a>
                         </div>
                         <div class="bg-secondary ">
                             <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -244,7 +200,7 @@
                 <div class="col-lg-3">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden">
-                            <a href="our-services#claims"> <img class="img-fluid" src="img/slide/new slide (1).jpg" alt=""></a>
+                            <a href="our-services#claims"> <img class="img-fluid" src="img/slide/new slide (1).jpg" alt="Claims Management"></a>
                         </div>
                         <div class="bg-secondary">
                             <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -259,7 +215,7 @@
                 <div class="col-lg-3">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden">
-                            <a href="our-services#dispute"> <img class="img-fluid" src="img/services/adult-business-composition-959816.jpg" alt=""></a>
+                            <a href="our-services#dispute"> <img class="img-fluid" src="img/services/adult-business-composition-959816.jpg" alt="Dispute Management"></a>
                         </div>
                         <div class="bg-secondary ">
                             <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -273,7 +229,7 @@
                 <div class="col-lg-3">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden">
-                            <a href="our-services#projects"> <img class="img-fluid" src="img/slide/slide (3).jpg" alt=""></a>
+                            <a href="our-services#projects"> <img class="img-fluid" src="img/slide/slide (3).jpg" alt="Project Management"></a>
                         </div>
                         <div class="bg-secondary ">
                             <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -311,17 +267,6 @@
         
        <!-- whatsapp chat box Javascript -->
         <script src="js/wchat.js"></script>
-        <script>
-           // function sendmsg() {
-            // let msg = document.getElementById('whats-in').value;
-            //let relmsg = msg.replace(/ /g,"%20");  
-           // window.open('https://wa.me/761380070');
-       // }
-        //function showWhatsapp(){
-            //  var action = document.querySelector('.floating-whatsapp');
-            //  action.classList.toggle('active');
-         // }
-        </script>
-        
+ 
     </body>
 </html>

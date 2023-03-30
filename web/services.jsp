@@ -21,10 +21,12 @@
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
 
         <!-- Icon Font Stylesheet -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
@@ -35,6 +37,9 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        
+          <!-- custom Stylesheet whatsapp-->
+         <link href="css/whatsapp.css" rel="stylesheet">
         <style>
             .text-black{
                 color: #333333;
@@ -61,7 +66,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
             <a href="main" class="navbar-brand p-0">
-                <img src="img/logo.png" width="150px" />
+                <img src="img/logo.png" width="150px" alt="logo"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -135,7 +140,7 @@
                     <div class="col-lg-6 col-md-6" >
                         <div class=" bg-secondary text-center px-5 ">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" alt="">
+                                <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" alt="Contract Administration">
                             </div>
                         </div>
                     </div >
@@ -179,7 +184,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class=" bg-secondary text-center px-5 ">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/slide/new slide (1).jpg" alt="">
+                            <img class="img-fluid" src="img/slide/new slide (1).jpg" alt="Claims Management">
                         </div>
                     </div>
                 </div >
@@ -193,7 +198,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class=" bg-secondary text-center px-5 ">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/services/adult-business-composition-959816.jpg" alt="">
+                            <img class="img-fluid" src="img/services/adult-business-composition-959816.jpg" alt="Dispute Management">
                         </div>
                     </div>
                 </div >
@@ -244,7 +249,7 @@
                 <div  class="col-lg-6 col-md-6">
                     <div class=" bg-secondary text-center px-5 ">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/slide/slide (3).jpg" alt="">
+                            <img class="img-fluid" src="img/slide/slide (3).jpg" alt="Project Management">
                         </div>
                     </div>
                 </div >
@@ -255,7 +260,9 @@
         </div>
         <!-- Services End -->
 
-
+        <!--  whatsapp chat box -->
+        <%@include file="include/wchat.jsp" %>
+        <!--  whatsapp chat box end -->
 
         <!-- Footer Start -->
         <%@include file="include/footer.jsp" %>
@@ -275,6 +282,9 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        
+            <!-- whatsapp chat box Javascript -->
+        <script src="js/wchat.js"></script>
     </body>
 
 </html>

@@ -25,6 +25,7 @@
 
         <!-- Icon Font Stylesheet -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
@@ -35,6 +36,9 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        
+         <!-- custom Stylesheet whatsapp-->
+         <link href="css/whatsapp.css" rel="stylesheet">
         <style>
             .text-black{
                 color: #333333;
@@ -72,7 +76,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
             <a href="main" class="navbar-brand p-0">
-                <img src="img/logo.png" width="150px" />
+                <img src="img/logo.png" width="150px" alt="logo"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -143,7 +147,7 @@
                     <div class="mb-5">
 
                         <div  style="justify-content: center;" class=" position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/team/Jayantha Jayakodi.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/team/Jayantha Jayakodi.jpg" alt="team member">
                         </div>
                     </div>
                     <!-- Category End -->
@@ -173,7 +177,7 @@
 
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Kariyawasam.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Kariyawasam.jpg" alt="team member">
                     <h5>G.S.K Kariyawasam</h5>
                     <h6>Senior Contract Specialist</h6>
                     <p><a href="bio?mem_id=m3">View Bio</a> |  
@@ -185,7 +189,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Pathmasiri.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Pathmasiri.jpg" alt="team member">
                     <h5>Theldeniyage Padmasiri</h5>
                     <h6>Senior Contract Specialist</h6>
                     <p><a href="bio?mem_id=m2">View Bio</a> |  
@@ -199,7 +203,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Nimantha.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Nimantha.jpg" alt="team member">
                     <h5>Nimantha Manamgoda</h5>
                     <h6>Senior Contract Specialist</h6>
                     <p><a href="bio?mem_id=m4">View Bio</a> |  
@@ -213,7 +217,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Rasika.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Rasika.jpg" alt="team member">
                     <h5>Rasika Samanmali</h5>
                     <h6>Senior Contract Specialist</h6>
                     <p><a href="bio?mem_id=m5">View Bio</a> |  
@@ -227,7 +231,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Eranga.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Eranga.jpg" alt="team member">
                     <h5>Eranga Jayasena</h5>
                     <h6>Contract Specialist</h6>
                     <p><a href="bio?mem_id=m6">View Bio</a> |  
@@ -240,7 +244,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Bhagya.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Bhagya.jpg" alt="team member">
                     <h5>Bhagya Senarath</h5>
                     <h6>Contract Specialist</h6>
                     <p><a href="bio?mem_id=m7">View Bio</a> |  
@@ -254,7 +258,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Vandana.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Vandana.jpg" alt="team member">
                     <h5>Wandana Jayathilaka</h5>
                     <h6>Contract Specialist</h6>
                     <p><a href="bio?mem_id=m8">View Bio</a> |  
@@ -267,7 +271,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Isuri.png" alt="">
+                    <img class="img-fluid w-80" src="img/team/Isuri.png" alt="team member">
                     <h5>Isuri Ridmika</h5>
                     <h6>Contract Specialist</h6>
                     <p><a href="bio?mem_id=m9">View Bio</a> |  
@@ -279,7 +283,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Vihangi.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Vihangi.jpg" alt="team member">
                     <h5>Vihangi Mallawaarachchi</h5>
                     <h6>Contract Specialist</h6>
                     <p><a href="bio?mem_id=m10">View Bio</a> |  
@@ -293,7 +297,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Thilini.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Thilini.jpg" alt="team member">
                     <h5>Thilini Pavithra</h5>
                     <h6>Junior Contract Specialist</h6>
                     <p><a href="bio?mem_id=m11">View Bio</a> |  
@@ -307,7 +311,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Shashini.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Shashini.jpg" alt="team member">
                     <h5>Shashini Kulathunga</h5>
                     <h6>Junior Contract Specialist</h6>
                     <p><a href="bio?mem_id=m12">View Bio</a> |  
@@ -321,7 +325,7 @@
                 </div>
                 <div class="col-lg-3 team-img-div">
                     <!-- Category Start -->
-                    <img class="img-fluid w-80" src="img/team/Dilrangi.jpg" alt="">
+                    <img class="img-fluid w-80" src="img/team/Dilrangi.jpg" alt="team member">
                     <h5>Nadeesha Dilrangi</h5>
                     <h6>Finance and Administration Executive</h6>
                     <p><a href="bio?mem_id=m13">View Bio</a> |  
@@ -342,6 +346,10 @@
     </div>
     <!-- Blog End -->
 
+<!--  whatsapp chat box -->
+<%@include file="include/wchat.jsp" %>
+<!--  whatsapp chat box end -->
+    
     <!-- Footer Start -->
     <%@include file="include/footer.jsp" %>
     <!-- Footer End -->
@@ -360,6 +368,9 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    
+     <!-- whatsapp chat box Javascript -->
+        <script src="js/wchat.js"></script>
 </body>
 
 </html>
