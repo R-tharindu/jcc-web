@@ -16,7 +16,7 @@
         <meta content="Free HTML Templates" name="description">
 
         <!-- Favicon -->
-        <link href="img/logo - Copy.png" rel="icon">
+        <link href="img/logo.png" rel="icon">
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,7 +65,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
             <a href="main" class="navbar-brand p-0">
-                <img src="img/logo.png" width="150px" />
+                <img src="img/logo.png" width="150px" alt="logo"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -159,7 +159,7 @@
                     <p align="justify">
                         To maintain our dedication in our services, refine our quality, expand our capabilities, increase
                         our efficiency, and elevate the superior level of customer service we now provide to heighten the
-                        standard of excellence we have set in the construction industry.
+                        standard of excellence we have set in resolving industry.
                     </p>
 
                 </div>
@@ -179,14 +179,14 @@
         <!-- Blog Start -->
         <div class="container-fluid py-4 px-5">
             <div class="text-center mx-auto mb-0" style="max-width: 600px;">
-                <h3 class="display-5 mb-0">OUR EXPERT SERVICE</h3>
+                <h1 class="display-5 mb-0">OUR EXPERT SERVICE</h1>
                 <hr class="w-25 mx-auto bg-primary">
             </div>
             <div class="row g-5">
                 <div class="col-lg-3">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden">
-                            <a href="our-services#contract"> <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" alt=" Contract"></a>
+                            <a href="our-services#contract"> <img class="img-fluid" src="img/services/Contract Administration.jpg" alt="Contract Administration"></a>
                         </div>
                         <div class="bg-secondary ">
                             <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -200,7 +200,7 @@
                 <div class="col-lg-3">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden">
-                            <a href="our-services#claims"> <img class="img-fluid" src="img/slide/new slide (1).jpg" alt="Claims Management"></a>
+                            <a href="our-services#claims"> <img class="img-fluid" src="img/services/Claims Management.jpg" alt="Claims Management"></a>
                         </div>
                         <div class="bg-secondary">
                             <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -215,7 +215,7 @@
                 <div class="col-lg-3">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden">
-                            <a href="our-services#dispute"> <img class="img-fluid" src="img/services/adult-business-composition-959816.jpg" alt="Dispute Management"></a>
+                            <a href="our-services#dispute"> <img class="img-fluid" src="img/services/Dispute Management.jpg" alt="Dispute Management"></a>
                         </div>
                         <div class="bg-secondary ">
                             <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
@@ -229,7 +229,7 @@
                 <div class="col-lg-3">
                     <div class="blog-item">
                         <div class="position-relative overflow-hidden">
-                            <a href="our-services#projects"> <img class="img-fluid" src="img/slide/slide (3).jpg" alt="Project Management"></a>
+                            <a href="our-services#projects"> <img class="img-fluid" src="img/services/Project Management.jpg" alt="Project Management"></a>
                         </div>
                         <div class="bg-secondary ">
                             <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">

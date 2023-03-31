@@ -140,7 +140,7 @@
                     <div class="col-lg-6 col-md-6" >
                         <div class=" bg-secondary text-center px-5 ">
                             <div class="position-relative overflow-hidden">
-                                <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" alt="Contract Administration">
+                                <img class="img-fluid" src="img/services/Contract Administration.jpg" alt="Contract Administration">
                             </div>
                         </div>
                     </div >
@@ -150,7 +150,7 @@
                             Contract administration is one of the core competencies of construction project management
                             which ensures that the construction industry practitioners understand and comply with the terms,
                             conditions and legislative changes related to construction contracts. <br><br>Our team provides an
-                            operational and systematic multidimensional contract administration service that embed complex
+                            operational and systematic multidimensional contract administration service that embeds complex
                             contractual logics such as claims management and disputes resolution in order to assist our
                             clients to effectively plan, manage, monitor and control the construction project performance.<br><br>                     </p>
                         <a href="completed-projects.jsp" class="btn btn-dark py-md-3 px-md-5 rounded-pill mb-2">Learn More</a> <br> <br> <br id="claims">
@@ -184,7 +184,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class=" bg-secondary text-center px-5 ">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/slide/new slide (1).jpg" alt="Claims Management">
+                            <img class="img-fluid" src="img/services/Claims Management.jpg" alt="Claims Management">
                         </div>
                     </div>
                 </div >
@@ -198,7 +198,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class=" bg-secondary text-center px-5 ">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/services/adult-business-composition-959816.jpg" alt="Dispute Management">
+                            <img class="img-fluid" src="img/services/Dispute Management.jpg" alt="Dispute Management">
                         </div>
                     </div>
                 </div >
@@ -211,7 +211,7 @@
                         between the parties are resolved considering the Conditions of Contract, but if failed, Alternative
                         Dispute Resolution (ADR) methods can be used. Mainly, negotiation, mediation, adjudication
                         and arbitration can be considered as the ADR methods utilized in the construction industry is
-                        resolving disputes.<br><br> Our expert team provides wide-ranging services to our clients in identifying
+                        resolving the construction.<br><br> Our expert team provides wide-ranging services to our clients in identifying
                         the disputes in the contract and assists them in resolving the disputes from the initial stages
                         through adjudication and arbitration, especially by identifying and crystalizing the dispute,
                         appointing the dispute adjudication board or the arbitration tribunal as per the contract, preparing
@@ -235,8 +235,8 @@
                     <h3 class="mb-3"></h3>
                     <p class="mb-0" align="justify">
                         Effective construction management abilities are necessary to complete construction projects on
-                        schedule, within budget, and to the desired level of quality because construction projects
-                        involves a lot of time and money.<br><br> Our team is uniquely suited to provide the oversight necessary
+                        schedule, within budget, and to the desired level of quality because construction
+                        involve a lot of time and money.<br><br> Our team is uniquely suited to provide the oversight necessary
                         to deliver your projects on schedule, within the desired scope, and with the anticipated
                         functionality. We offer a comprehensive range of project management services to help
                         contractors stay affordable and competitive in the market such as feasibility studies,
@@ -249,7 +249,7 @@
                 <div  class="col-lg-6 col-md-6">
                     <div class=" bg-secondary text-center px-5 ">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/slide/slide (3).jpg" alt="Project Management">
+                            <img class="img-fluid" src="img/services/Project Management.jpg" alt="Project Management">
                         </div>
                     </div>
                 </div >

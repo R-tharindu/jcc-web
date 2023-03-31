@@ -159,7 +159,7 @@
                     
                     
                     <div class="d-flex mb-3" style="padding-left: 10%;">
-                        <img class="img-fluid" src="img/services/church-construction-pre-planning-011.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="service">
+                        <img class="img-fluid" src="img/services/Contract Administration.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="service">
                         <a href="our-services" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Our Services &nbsp;&nbsp;&nbsp; <i class="bi bi-arrow-right text-primary me-2"></i>
                         
                         </a>
