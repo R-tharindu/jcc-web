@@ -168,7 +168,7 @@
                 <div class="col-lg-6 col-md-6 ">
                     <h3 class="mb-3"></h3>
                     <p class="mb-0" align="justify">
-                        Claims commonly arise between the parties to construction contracts. This can be as a result of
+                        Claims commonly arise between the parties to the construction. This can be as a result of
                         problems such as delays, changes, unforeseen circumstances, insufficient information and many
                         other reasons. From the Contractors’ perspective Claims management is the process of
                         identification of claimable events, establishing the contractual entitlements and the preparation of
