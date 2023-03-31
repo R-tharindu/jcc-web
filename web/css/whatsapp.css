@@ -1,7 +1,7 @@
 .floating-whatsapp{
-  bottom: 25px;
+  bottom: 60px;
   position: fixed;
-  right:25px;
+  right:45px;
   font-family: sans-serif;
   z-index:10000;
 }

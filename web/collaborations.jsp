@@ -122,9 +122,9 @@
         <!-- Services End -->
 
 
-     <!--  whatsapp chat box -->
-    <%@include file="include/wchat.jsp" %>
-    <!--  whatsapp chat box end -->
+        <!--  whatsapp chat box -->
+        <%@include file="include/wchat.jsp" %>
+        <!--  whatsapp chat box end -->
 
         <!-- Footer Start -->
         <%@include file="include/footer.jsp" %>
