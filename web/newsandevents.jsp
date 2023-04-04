@@ -10,13 +10,13 @@
 
     <head>
         <meta charset="utf-8">
-        <title>JCC - Consultancy</title>
+        <title>News And Events</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free HTML Templates" name="keywords">
         <meta content="Free HTML Templates" name="description">
 
         <!-- Favicon -->
-        <link href="img/logo.png" rel="icon">
+        <link href="img/logo2.png" rel="icon">
 
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
